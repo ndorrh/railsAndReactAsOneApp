@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <ul>
-        <li><NavLink className="Nav-Item"  to="" style={({ isActive }) => (isActive ? { textDecoration: 'underline', color: 'red' } : { color: 'blue' })}>message</NavLink></li>
+        <li><NavLink className="Nav-Item"  to="/message" style={({ isActive }) => (isActive ? { textDecoration: 'underline', color: 'red' } : { color: 'blue' })}>message</NavLink></li>
       </ul>
     </div>
   );

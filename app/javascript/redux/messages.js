@@ -20,6 +20,7 @@ const messageSlice = createSlice({
     builder.addCase(getMessages.fulfilled, (state, action) => {
       const newState = state;
       newState.messages.push(action.payload);
+      return newState;
     });
   },
 });

@@ -1,2 +1,2 @@
-rails: rails s -p 3000
+rails: rails s -p 4000
 js: yarn build --watch
