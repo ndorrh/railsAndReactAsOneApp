@@ -55,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Hello Rails React API App <a name="about-project"></a>
 
-**The Hello Rails React API App** is a combined Rails and React API based web application that returns different kinds of greetings via an API endpoint that is interfaced with a React Front End application that consuming the API endpoints bundled together with WEBPACK.
+**The Hello Rails React API App** The Hello Rails API Backend App is an API backend application that returns different kinds of greetings via an API endpoint. It is to be interfaced with the  [Hello Rails Frontend](https://github.com/ndorrh/hello-react-front-end) a React Front End application that consumes the API endpoints.
 
 ## 🛠 Built With <a name="built-with"></a>
 
