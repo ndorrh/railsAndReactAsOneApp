@@ -122,17 +122,21 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/ndorrh/railsAndReactAsOneApp
+ backend:  git clone https://github.com/ndorrh/railsAndReactAsOneApp
 
   cd Hello-World-RoR-WebPack
   git checkout rails-backend
 
+frontend: git clone https://github.com/ndorrh/hello-react-front-end
+cd hello-react-front-end
+git checkout hello-rails-frontEnd
 
 ### Usage
 
 To run the backend, execute the following command:
 
-  rails s -p 4000
+ backend: rails s -p 4000
+ backend: npm start
 
 ### Run tests
 
