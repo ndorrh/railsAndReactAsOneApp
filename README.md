@@ -125,16 +125,14 @@ Clone this repository to your desired folder:
   git clone https://github.com/ndorrh/railsAndReactAsOneApp
 
   cd Hello-World-RoR-WebPack
+  git checkout rails-backend
 
 
 ### Usage
 
-To run the project, execute the following command:
+To run the backend, execute the following command:
 
-
-  rails server
-
-  OR ./bin/dev
+  rails s -p 4000
 
 ### Run tests
 
